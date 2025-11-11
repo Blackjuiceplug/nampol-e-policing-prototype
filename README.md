@@ -17,6 +17,44 @@
 
 ---
 
+## 📸 Screenshots
+
+<div align="center">
+
+### Mobile Application
+
+<table>
+  <tr>
+    <td><img src="docs/screenshots/login.png" alt="Login Screen" width="250"/></td>
+    <td><img src="docs/screenshots/home.png" alt="Home Dashboard" width="250"/></td>
+    <td><img src="docs/screenshots/patrol.png" alt="Patrol Mode" width="250"/></td>
+    <td><img src="docs/screenshots/splash.png" alt="splash Screen" width="250"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Login Screen</b></td>
+    <td align="center"><b>Home Dashboard</b></td>
+    <td align="center"><b>Patrol Mode</b></td>
+    <td align="center"><b>Splash Screen</b></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="docs/screenshots/incident_report.png" alt="Incident Report" width="250"/></td>
+    <td><img src="docs/screenshots/map_view.png" alt="Map View" width="250"/></td>
+    <td><img src="docs/screenshots/case_history.png" alt="Case History" width="250"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Incident Report</b></td>
+    <td align="center"><b>Map View</b></td>
+    <td align="center"><b>Case History</b></td>
+  </tr>
+</table>
+
+</div>
+
+---
+
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
@@ -267,21 +305,21 @@ Please report security vulnerabilities to: **mundjelefelix@gmail.com**
 - [x] Evidence attachment (photo/video/audio)
 - [x] Emergency backup requests
 
-### Phase 2: Enhanced Features 
-- [X] Web admin dashboard
+### Phase 2: Enhanced Features (Q1 2025)
+- [ ] Web admin dashboard
 - [ ] Advanced analytics and reporting
 - [ ] Multi-language support (English, Oshiwambo)
 - [ ] Geofencing and zone management
 - [ ] iOS application
 
-### Phase 3: Integration 
+### Phase 3: Integration (Q2 2025)
 - [ ] National incident database integration
 - [ ] Interoperability with existing systems
 - [ ] Advanced role-based access control
 - [ ] API for third-party integrations
 - [ ] Biometric authentication
 
-### Phase 4: Scale 
+### Phase 4: Scale (Q3 2025)
 - [ ] Nationwide deployment
 - [ ] AI-powered incident prediction
 - [ ] Body camera integration
