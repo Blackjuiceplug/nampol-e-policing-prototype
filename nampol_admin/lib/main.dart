@@ -5,15 +5,16 @@ import 'services/auth_wrapper.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: ".env");
   await Firebase.initializeApp(
-    options: const FirebaseOptions(
-        apiKey: "AIzaSyCGYfJQAB44vqNv4iSQjRlp8RKdsgXhnLw",
-        authDomain: "nampol-app.firebaseapp.com",
-        projectId: "nampol-app",
-        storageBucket: "nampol-app.firebasestorage.app",
-        messagingSenderId: "590118171741",
-        appId: "1:590118171741:web:0dab1e4c39f3735a6309b4",
-        measurementId: "G-R61ZLXNG9V"
+    options: FirebaseOptions(
+        apiKey:dotenv.env['FIREBASE_API_KEY'] ?? '',
+        authDomain: dotenv.env['FIREBASE_AUTH_DOMAIN'] ?? '',
+        projectId: dotenv.env['FIREBASE_PROJECT_ID'] ?? '',
+        storageBucket:dotenv.env['FIREBASE_STORAGE_BUCKET'] ?? '',
+        messagingSenderId:dotenv.env['FIREBASE_MESSAGING_SENDER_ID'] ?? '',
+        appId:dotenv.env['FIREBASE_APP_ID'] ?? '',
+        measurementId:dotenv.env['MEASUREMENT_ID'] ?? ''
     ),
   );
   runApp(const MyApp());
