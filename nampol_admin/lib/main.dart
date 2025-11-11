@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const AuthWrapper(), // This handles the auth flow
+      home: const AuthWrapper(), 
       debugShowCheckedModeBanner: false,
     );
   }
