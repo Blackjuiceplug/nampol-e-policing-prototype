@@ -1,0 +1,22 @@
+# Flutter
+**/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# Web / Admin (Node.js)
+node_modules/
+dist/
+.env
+
+# General
+*.log
+*.tmp
+.idea/
+.vscode/
+nampol_app/android/app/google-services.json
+nampol_app/ios/Runner/GoogleService-Info.plist
+lib/.env
+.env
